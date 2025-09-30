@@ -1,0 +1,306 @@
+.about-banner.exhibition-stand-spain-ban {
+  width: 100%;
+  background: url(https://www.triumfo.de/site/images/countrybanner.webp) !important  ;
+  background-size: cover;
+  padding: 130px 0 120px;
+  text-align: center;
+  position: relative;
+}
+.about-banner .get-quote {
+    background: none;
+    border: 3px solid #fff;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 40px;
+}
+.about-details {
+    padding: 5rem 0;
+}
+.about-banner.exhibition-stand-spain-ban h1 {
+  color: #fff !important;
+  position: relative;
+  font-size: 50px;
+}
+.about-banner.exhibition-stand-spain-ban h1 span {
+  color: #e2bd3c !important;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.exhibition-stand-spain-ban::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000000e0;
+}
+
+.about-banner.exhibition-stand-spain-ban .get-quote {
+  position: relative !important;
+}
+
+.whtwe-bg {
+  width: 100%;
+  background: url(../../assets/images/1666264187.html)
+    no-repeat center;
+  background-size: cover;
+  padding: 130px 0 120px;
+  height: 400px;
+  position: relative;
+}
+
+.whtwe-bg::before {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  content: "";
+  background: #221313e8;
+  width: 100%;
+  height: 100%;
+}
+
+.plaining-sec {
+  margin-top: -260px;
+}
+.plaining-sec h2 {
+  font-size: 50px;
+  text-align: left;
+  color: #fff;
+  font-weight: 500;
+}
+.plaining-sec h3 {
+  font-size: 30px;
+  text-align: left;
+  color: #fff;
+  font-weight: 400;
+}
+
+.plaining-sec .plan-box {
+  margin: 20px 0px;
+}
+.plaining-sec .plan-box ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.plaining-sec .plan-box ul li {
+  flex: 0 0 31%;
+  background-color: white;
+  padding: 46px 53px 50px 53px;
+  text-align: center;
+  -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.plaining-sec .plan-box ul li .iconbox {
+  margin: 10px 0px;
+}
+.plaining-sec .plan-box ul li h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+  line-height: 30px;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.plaining-sec .plan-box ul li p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  text-align: center;
+}
+
+
+
+.maingoalbg{
+    width: 100%;
+    margin:0;
+    padding:110px 0 60px;
+    overflow: hidden;
+    background:#fff;
+}
+.maingoalbg .figure{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.maingoalbg .figure img{
+    width: 100%;
+    height: 100%;
+}
+.nopadding{
+    padding:0;
+}
+.bgwhite{
+    background: #fff;
+}
+.maingoalbg .caption{
+    display: block;
+    padding:40px;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.maingoalbg  .title{
+    display: block;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #222;
+    font-family: Fjalla One,sans-serif;
+    font-weight: 600;
+}
+.maingoalbg  p{
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222;
+    margin-bottom: 1rem;
+}
+.maingoalbg  p span{
+    color: #888;
+}
+
+
+
+.csfaqbg{
+    width: 100%;
+    margin:0;
+    padding:60px 0;
+    overflow: hidden;
+    background: #fff;
+}
+.csfaqbg .borderbg{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin:1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,.10);
+}
+
+.csfaqbg .borderbg .qustntitle{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.csfaqbg .borderbg .qustnanswer{
+    display: block;
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #707070;
+}
+.csfaqbg .faqtitle {
+    font-size: 35px;
+    color: #181717;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Fjalla One, sans-serif;
+    text-align: center;
+}
+.csfaqbg p{
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222;
+    margin-bottom: 1rem;
+
+}
+
+
+.img-thumbnail-latest-project{  
+padding: .25rem;
+  background-color: #fff;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.bg-sec1{ background:#ffd6a5 !important; }
+.bg-sec2{ background:#fdffb6 !important; }
+.bg-sec3{ background:#d9edf8 !important; }
+.bg-sec4{ background:#dedaf4 !important; }
+.bg-sec4{ background:#e4f1ee !important; }
+
+.photogallerybg .galtitle {
+    font-size: 35px;
+    color: #181717;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Fjalla One,sans-serif !important;
+    text-align: center;
+}
+
+.photogallerybg p {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.photogallerybg {
+    width: 100%;
+    margin: 0;
+    padding: 80px 0 0px;
+    overflow: hidden;
+}       
+
+
+.photogallerybg [class*="col-"] {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    margin: 7.5px 0;
+}
+
+.gallery-img img{ height:100%; }
+
+
+
+
+@media (max-width:767px){
+
+.about-banner.exhibition-stand-spain-ban {
+    padding: 30px 0 50px;
+}
+
+.about-banner.exhibition-stand-spain-ban h1{ font-size:35px; }
+.about-banner.exhibition-stand-spain-ban h1 span {
+    color: #e2bd3c !important;font-size: 51px;}
+
+
+.about-banner .breadcrumb {
+    justify-content: center;
+    margin: 20px 0px;
+    background: transparent;
+}
+
+.about-details {
+    padding: 40px 0px;
+}
+
+.main-title{ font-size:35px; line-height:45px; }
+.whtwe-bg{ height:300px; }
+.plaining-sec h2{ font-size:28px; }
+.plaining-sec h3{ font-size:18px; }
+.plaining-sec .plan-box ul li{ flex: 0 0 100%; padding:40px; }
+.maingoalbg{ padding:20px 0px 0px; }
+.photogallerybg{ padding:0px 0px 20px; }
+.csfaqbg{ padding:40px 0px; }
+.csfaqbg .borderbg .qustntitle{ padding:18px; margin-bottom:0px; }
+.maingoalbg .caption{ padding:10px; }
+.maingoalbg .title{ font-size:25px; padding-top:25px; }
+
+
+}

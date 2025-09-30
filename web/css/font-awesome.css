@@ -1,0 +1,256 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+.fa,
+.fa-stack {
+  display: inline-block;
+}
+.fa-fw,
+.fa-li {
+  text-align: center;
+}
+@font-face {
+  font-family: FontAwesome;
+  src: url("../font/fontawesome-webfont_1.eot");
+  src: url("../font/fontawesome-webfont.eot#iefix&v=4.7.0")
+      format("embedded-opentype"),
+    url("../font/fontawesome-webfont.woff2") format("woff2"),
+    url("../font/fontawesome-webfont.woff") format("woff"),
+    url("../font/fontawesome-webfont.ttf") format("truetype"),
+    url("../images/fontawesome-webfont.html#fontawesomeregular") format("svg");
+  font-weight: 400;
+  font-style: normal; font-display: swap; 
+}
+.fa {
+  font: 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: inherit;
+  text-rendering: auto;
+}
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x,
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-close::before,
+.fa-remove::before,
+.fa-times::before {
+  content: "\f00d";
+}
+.icon.fa.fa-bars {
+  font-size: 24px;
+  line-height: 40px;
+}
+.fa-bars::before,
+.fa-navicon::before,
+.fa-reorder::before {
+  content: "\f0c9";
+}
+.fa-angle-down::before {
+  content: "\f107";
+}
+.fa-angle-up::before {
+  content: "\f106";
+}
+.fa-hand-o-right::before {
+  content: "\f0a4";
+}
+.fa-calendar-check-o::before {
+  content: "\f274";
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: 0.2em 0.25em 0.15em;
+  border: 0.08em solid #eee;
+  border-radius: 0.1em;
+}
+.fa-pull-left,
+.pull-left {
+  float: left;
+}
+.fa-pull-right,
+.pull-right {
+  float: right;
+}
+.fa.fa-pull-left,
+.fa.pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fa.pull-right {
+  margin-left: 0.3em;
+}
+.fa-spin {
+  -webkit-animation: 2s linear infinite fa-spin;
+  animation: 2s linear infinite fa-spin;
+}
+.fa-pulse {
+  -webkit-animation: 1s steps(8) infinite fa-spin;
+  animation: 1s steps(8) infinite fa-spin;
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-rotate-90 {
+  filter: none;
+}
+.fa-stack {
+  position: relative;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-inverse {
+  color: #fff;
+}
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+.fa-envelope-o:before {
+  content: "\f003";
+}
+.fa-home:before {
+  content: "\f015";
+}
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-map-marker::before {
+	content: "\f041";
+}
+.fa-calendar::before {
+	content: "\f073";
+}
+
+.fa-crosshairs::before {
+	content: "\f05b";
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}

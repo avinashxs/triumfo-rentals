@@ -1,0 +1,152 @@
+.about-banner {
+    width: 100%;
+    background: url(../images/bgtopn.webp) center center/cover no-repeat;
+    padding: 107px 0 100px;
+    text-align: center;
+    position: relative
+}
+
+.about-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .85)
+}
+
+.about-banner::after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.about-banner .container {
+    position: relative;
+    z-index: 1
+}
+
+.about-banner .main-title {
+    font-size: 50px
+}
+
+.about-banner .main-title .city-name {
+    color: #e2bd3c;
+    text-transform: uppercase;
+    display: block;
+    font-size: 50px;
+    font-weight: 700
+}
+
+
+.about-banner .get-quote {
+    background: 0 0;
+    border: 3px solid #fff;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 40px
+}
+
+.about-banner .get-quote:hover {
+    background: #e2bd3c;
+    text-decoration: none
+}
+
+.blogbg {
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+    overflow: hidden;
+    background: #fff
+}
+
+.blogbg [class*=col-] {
+    margin: 30px 0
+}
+
+.blogbg .column,
+.blogbg .column .figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden
+}
+
+.blogbg .column {
+    text-align: center;
+    background: #f4f4f4;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    position: relative;
+    height: 100%
+}
+
+.blogbg .column .figure {
+    border-radius: 8px 8px 0 0
+}
+
+.blogbg .column .figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0
+}
+
+.blogbg .column .caption {
+    display: block;
+    background: #f4f4f4;
+    position: relative;
+    padding: 15px;
+    border-radius: 0 0 8px 8px
+}
+
+.blogbg .column .title {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+.blogbg .column .title a{
+    display: block;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+.blogbg .learanmore {
+    display: block;
+    overflow: hidden;
+    margin-top: 1rem
+}
+
+.blogbg .learanmore a {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fff;
+    background: #e86221;
+    border-radius: 2rem;
+    border: 3px solid #ef4f02
+}
+
+.paginationwrapper {
+    display: block;
+    overflow: hidden;
+    margin-top: 50px
+}
+
+.page-item.active .page-link {
+    background-color: #e86221;
+    border-color: #ef4f02
+}
+
+.page-link {
+    color: #ef4f02
+}
