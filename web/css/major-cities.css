@@ -1,4 +1,4 @@
-.about-banner{
+.about-banner {
     width: 100%;
     background: url(../images/bgtopn.webp) no-repeat center center;
     background-size: cover;
@@ -6,7 +6,8 @@
     text-align: center;
     position: relative;
 }
-.about-banner::before{
+
+.about-banner::before {
     content: '';
     position: absolute;
     top: 0;
@@ -15,18 +16,22 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.85);
 }
-.about-banner::after{
+
+.about-banner::after {
     content: '';
     display: block;
     clear: both;
 }
-.about-banner .container{
+
+.about-banner .container {
     position: relative;
     z-index: 1;
 }
-.about-banner .main-title{
+
+.about-banner .main-title {
     font-size: 50px;
 }
+
 .about-banner .main-title .city-name {
     color: #e2bd3c;
     text-transform: uppercase;
@@ -34,37 +39,44 @@
     font-size: 50px;
     font-weight: 700;
 }
-.about-banner .breadcrumb{
+
+.about-banner .breadcrumb {
     justify-content: center;
     margin: 1rem 0 2rem 0;
     background: transparent;
 }
-.about-banner .breadcrumb ul{
+
+.about-banner .breadcrumb ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-.about-banner .breadcrumb ul li{
+
+.about-banner .breadcrumb ul li {
     margin-right: 20px;
     padding: 0 10px;
     position: relative;
     color: #fff;
 }
-.about-banner .breadcrumb ul li:after{
+
+.about-banner .breadcrumb ul li:after {
     content: "/";
     position: absolute;
     right: -14px;
     color: #fff;
 }
-.about-banner .breadcrumb ul li:nth-last-child(1)::after{
+
+.about-banner .breadcrumb ul li:nth-last-child(1)::after {
     display: none;
 }
-.about-banner .breadcrumb ul li a{
+
+.about-banner .breadcrumb ul li a {
     color: #fff;
 }
-.about-banner .get-quote{
+
+.about-banner .get-quote {
     background: none;
     border: 3px solid #fff;
     padding: 12px 30px;
@@ -73,23 +85,27 @@
     font-weight: 600;
     border-radius: 40px;
 }
-.about-banner .get-quote:hover{
+
+.about-banner .get-quote:hover {
     background: #e2bd3c;
     text-decoration: none;
 }
 
-.location{
+.location {
     padding: 5rem 0;
 }
-.location .main-title{
-   border-bottom: 1px solid #0b98a850;
+
+.location .main-title {
+    border-bottom: 1px solid #efab1d;
 }
-.location .main-title span{
-   border-bottom: 5px solid #0b98a8;
-   padding: 0 10px;
+
+.location .main-title span {
+    border-bottom: 5px solid #efab1d;
+    padding: 0 10px;
 }
-.location .cityname{
-    border: 1px solid #0b98a850;
+
+.location .cityname {
+    border: 1px solid #efab1d;
     margin-bottom: 30px;
     display: flex;
     position: relative;
@@ -99,9 +115,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border-bottom: 2px solid #0b98a8c9;
+    border-bottom: 2px solid #efab1d;
+    /* border-bottom: 2px solid #0b98a8c9; */
 }
-.location .cityname a{
+
+.location .cityname a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,21 +130,26 @@
     font-size: 20px;
     font-weight: 500;
 }
-.location .cityname a::after{
+
+.location .cityname a::after {
     content: "\f05b";
     font: normal normal normal 20px/1 FontAwesome;
     position: absolute;
     left: 0;
-    color: #ca1f26;
+    color: #efab1d;
     transition: ease 0.5s;
 }
-.location .cityname:hover{
-    background: #0a97a7;
+
+.location .cityname:hover {
+    background: #23252b;
+    /* background: #0a97a7;*/
 }
-.location .cityname:hover a{
+
+.location .cityname:hover a {
     color: #fff;
 }
-.location .cityname:hover a::after{
+
+.location .cityname:hover a::after {
     color: #fff;
     transform: rotate(360deg);
 }

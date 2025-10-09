@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 *,
 aside,
 body,
@@ -25,16 +26,17 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 *,
 .PopupMain,
 ::after,
 ::before {
     box-sizing: border-box;
 }
+
 .PopupMain .formtitle,
-.main-title {
-  
-}
+.main-title {}
+
 body,
 html {
     font-display: optional;
@@ -45,57 +47,73 @@ html {
     font-weight: 400;
     background: #fff;
 }
+
 li,
 ol,
 ul {
     list-style: none;
 }
+
 img {
     max-width: 100%;
 }
+
 a,
 a:hover {
     text-decoration: none;
     color: #1553fc;
 }
+
 .clear {
     clear: both;
 }
+
 .main-title {
     font-size: 36px;
     color: #000;
     width: 100%;
-        font-weight: 600;
-    
+    font-weight: 600;
+
     margin-bottom: 1rem;
 }
+
 .main-disc {
     font-size: 17px;
     margin-bottom: 1rem;
 }
+
 .btn-custom {
-    background: #ca1f26;
+    background: #efab1d;
+    /* background: #ca1f26; */
     color: #fff;
-    border: 1px solid #ca1f26;
+    border: 1px solid #efab1d;
+    /* border: 1px solid #ca1f26; */
     border-radius: 10px;
 }
+
 .btn-custom:hover {
     background: #fff;
-    color: #ca1f26;
-    border: 1px solid #ca1f26;
+    color: #efab1d;
+    /* color: #ca1f26; */
+    border: 1px solid #efab1d;
+    /* border: 1px solid #ca1f26; */
 }
+
 .nav-topbar {
     width: 100%;
-    background: #414141;
+    background: #23252b;
+    /* background: #414141; */
     padding: 5px 0;
     position: relative;
 }
+
 .top-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .navtop-details {
     display: flex;
     flex-wrap: wrap;
@@ -105,15 +123,18 @@ a:hover {
     gap: 8px;
     overflow: hidden;
 }
+
 .navtop-details .transformnone {
     color: #fff;
     display: inline-block;
     font-size: 14px;
     padding: 7px 10px;
 }
+
 .navtop-details .call2dha,
 .navtop-details .calldha {
     background: #009aac;
+    /* background: #009aac; */
     display: block;
     padding: 7px 30px;
     color: #fff;
@@ -122,22 +143,27 @@ a:hover {
     text-transform: uppercase;
     text-align: center;
 }
+
 .navtop-details .call2dha {
     background: #e2bd3c;
     color: #000;
     animation: 1s infinite glow;
 }
+
 @keyframes glow {
     0% {
         box-shadow: 0 0 0 2px #fff, 0 0 0 -2px #fff;
     }
+
     50% {
         box-shadow: 0 0 0 4px #ffffff00, 0 0 0 -4px #fff0;
     }
+
     100% {
         box-shadow: 0 0 0 6px #ffffff00, 0 0 0 -6px #fff0;
     }
 }
+
 .navbar .navbar-nav .nav-item .nav-link {
     font-size: 17px;
     padding: 8px 15px;
@@ -147,43 +173,52 @@ a:hover {
     text-transform: uppercase;
     font-weight: 600;
 }
+
 .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover,
 .navbar .navbar-nav .nav-item .nav-link:hover {
-    background: #009aac;
+    background: #efab1d;
+    /* background: #009aac; */
     color: #fff;
 }
+
 .navbar .navbar-nav .dropdown .dropdown-menu {
     margin: 0;
     padding: 0;
     border: none;
     border-radius: 0;
 }
+
 .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
     padding: 10px 20px;
     display: block;
     border-bottom: 1px solid #f3f3f3;
     font-size: 16px;
 }
+
 @media (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
         display: block;
     }
 }
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar .navbar-nav .nav-item .nav-link {
         padding: 7px 4px;
     }
 }
+
 @media screen and (max-width: 991px) {
     .navtop-details {
         gap: 10px;
         width: 100%;
     }
+
     #google_translate_element,
     .navtop-details .transformnone {
         display: none;
     }
 }
+
 .modal-body {
     border: 1px solid #ddd;
     margin: 1rem;
@@ -191,6 +226,7 @@ a:hover {
     border-radius: 5px;
     position: relative;
 }
+
 .modal-body .btn-close {
     position: absolute;
     top: 0;
@@ -201,6 +237,7 @@ a:hover {
     padding: 5px 10px;
     opacity: 1;
 }
+
 .modal-body .model-head {
     background: linear-gradient(0deg, #000, #000000c9) 0 0 / cover, url(../images/ds.png) center/cover no-repeat;
     height: 100%;
@@ -213,19 +250,23 @@ a:hover {
     color: #fff;
     text-align: center;
 }
+
 .model-head.model-head-bg {
     background: url(../images/connect.webp) 0 0 / cover no-repeat !important;
     height: 100%;
 }
+
 .modal-body form {
     padding: 30px;
     display: block;
     position: relative;
 }
+
 .modal-body form input,
 .modal-body form select {
     box-shadow: none !important;
 }
+
 .modal-body form .btn-submit {
     width: 100%;
     background: #33adbd;
@@ -240,14 +281,17 @@ a:hover {
     border-radius: 3px;
     margin-top: 1.5rem;
 }
+
 .modal-body .model-left {
     height: 100%;
     overflow: hidden;
 }
+
 .modal-body .model-left img {
     height: 100%;
     object-fit: cover;
 }
+
 .footer {
     background: #000;
     color: #ddd;
@@ -255,12 +299,14 @@ a:hover {
     margin: 0;
     overflow: hidden;
 }
+
 .footer .center-part {
     background: #1c1c28;
     padding: 2rem 1rem 1rem;
     margin-bottom: 2rem;
     border-radius: 8px;
 }
+
 .footer .fhead {
     font-size: 20px;
     font-weight: 500;
@@ -269,19 +315,23 @@ a:hover {
     margin-bottom: 10px;
     position: relative;
 }
+
 .footer .fhead span {
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
 }
-.footer p a{
-    display:block;
-    color:#fff;
-    margin-bottom:1rem;
+
+.footer p a {
+    display: block;
+    color: #fff;
+    margin-bottom: 1rem;
 }
+
 .footer .list {
     margin-bottom: 2rem;
 }
+
 .footer .list li a {
     color: #eee;
     padding: 10px 3px;
@@ -290,9 +340,11 @@ a:hover {
     position: relative;
     font-size: 17px;
 }
+
 .footer .list li {
     position: relative;
 }
+
 .footer .list li::before {
     content: "";
     position: absolute;
@@ -303,22 +355,28 @@ a:hover {
     background: #eeeeee40;
     transition: 0.3s;
 }
+
 .footer .list li:hover::before {
     background: #eee;
 }
+
 .footer .list li:hover a {
     color: #fff;
 }
+
 .footer form {
     margin-top: 1rem;
 }
+
 .footer form input:focus {
     box-shadow: none;
     border: 1px solid #ca1f26;
 }
+
 .footer form input::placeholder {
     font-size: 15px;
 }
+
 .footer form .submit {
     border: 0;
     border-radius: 0 0.25rem 0.25em 0;
@@ -326,12 +384,14 @@ a:hover {
     background: #ca1f26;
     color: #fff;
 }
+
 .footer .social {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 5px;
 }
+
 .footer .social li a {
     color: #eee;
     display: flex;
@@ -346,45 +406,58 @@ a:hover {
     font-size: 17px;
     transition: 0.2s;
 }
+
 .footer .social li:hover a {
     border: 1px solid #fff0;
     color: #fff;
 }
+
 .footer .social li a span {
     display: none;
 }
+
 .footer .social .facebook:hover a {
     background: #3b5998;
 }
+
 .footer .social .twitter:hover a {
     background: #000;
 }
+
 .footer .social .linkedin:hover a {
     background: #007bb6;
 }
+
 .footer .social .pinterest:hover a {
     background: #e60023;
 }
+
 .footer .social .youtube:hover a {
     background: #b00;
 }
+
 .footer .social .googleplus:hover a {
     background: #dd4b39;
 }
+
 .copyright {
     color: #ddd;
     text-align: center;
     padding: 1rem 0;
 }
-.copyright a{
-    display:inline-block !important;
+
+.copyright a {
+    display: inline-block !important;
 }
+
 .popup-bg {
     background: linear-gradient(0deg, #f0e1c0, #f0e1c0), url(../../assets/img/d.html) center no-repeat;
 }
+
 .form-sec {
     padding: 30px 0 70px;
 }
+
 .PopupMain {
     display: block;
     width: 100%;
@@ -396,13 +469,16 @@ a:hover {
     margin: 0 auto;
     max-width: 900px;
 }
+
 .modal.show .modal-dialog {
     transform: translate(0, 20%);
 }
+
 .PopupMain .row {
     margin-left: -15px;
     margin-right: -15px;
 }
+
 .PopupMain .formtitle {
     display: block;
     font-size: 1.6rem;
@@ -412,9 +488,11 @@ a:hover {
     font-weight: 400;
     letter-spacing: 1px;
 }
+
 .PopupMain .formtitle span {
     color: #009aac;
 }
+
 .PopupMain p {
     display: block;
     font-size: 1rem;
@@ -422,6 +500,7 @@ a:hover {
     color: #414141;
     margin-bottom: 0;
 }
+
 .PopupMain input[type="text"] {
     display: block;
     line-height: 52px;
@@ -437,6 +516,7 @@ a:hover {
     border: 1px solid #ddd;
     font-size: 16px;
 }
+
 .PopupMain input[type="file"],
 .PopupMain select {
     line-height: 52px;
@@ -448,6 +528,7 @@ a:hover {
     box-sizing: border-box;
     text-shadow: none;
 }
+
 .PopupMain input[type="file"] {
     font-size: 1rem;
     height: 52px;
@@ -455,6 +536,7 @@ a:hover {
     color: #3d3d3d;
     border: 1px solid #ddd;
 }
+
 .PopupMain .custom-drop-file {
     position: relative;
     padding: 10px;
@@ -463,6 +545,7 @@ a:hover {
     height: 52px;
     margin: 6px 0;
 }
+
 .PopupMain .custom-drop-file input[type="file"] {
     position: absolute;
     height: 100%;
@@ -473,12 +556,14 @@ a:hover {
     top: 0;
     left: 0;
 }
+
 .PopupMain .custom-drop-file p {
     margin: 0;
     color: #414141;
     font-size: 0.65rem;
     position: relative;
 }
+
 .custom-drop-file p span {
     display: inline-block;
     background: #414141;
@@ -486,10 +571,12 @@ a:hover {
     color: #fff;
     font-size: 11px;
 }
+
 .intl-tel-input,
 .iti {
     width: 100%;
 }
+
 .PopupMain select {
     height: 47px;
     border-radius: 3px;
@@ -497,6 +584,7 @@ a:hover {
     border: 1px solid #ddd;
     font-size: 15px;
 }
+
 .PopupMain textarea {
     display: block;
     font-size: 1rem;
@@ -512,6 +600,7 @@ a:hover {
     border: 1px solid #ddd;
     height: 130px;
 }
+
 .PopupMain input[type="submit"] {
     display: inline-block;
     margin: 10px 0;
@@ -525,6 +614,7 @@ a:hover {
     text-shadow: none;
     background: #ca1f26;
 }
+
 .teellus {
     border-radius: 10px;
     font-size: 27px;
@@ -532,44 +622,56 @@ a:hover {
     color: #fff;
     text-transform: uppercase;
 }
+
 .col-lg-12.col-md-12.mt-tb {
     margin: 6px 0;
 }
+
 #mobile_code1 {
     color: #6c6767;
     font-size: 16px;
 }
+
 .error {
     color: red;
     font-size: 0.85rem;
 }
+
 @media screen and (max-width: 767px) {
+
     .col-md-5.p-0.mobile-view,
     .footer .list li a::before {
         display: none;
     }
+
     .modal-body form {
         padding: 8px;
     }
+
     .PopupMain {
         box-shadow: none;
     }
+
     .modal.show .modal-dialog {
         transform: translate(0, 14px);
     }
+
     .PopupMain input[type="submit"] {
         font-size: 16px;
         padding: 0 14px;
     }
+
     .footer,
     .footer .fhead,
     .footer .list li {
         text-align: center;
     }
+
     .footer .social {
         justify-content: center;
     }
-    .dropdown-toggle::after{
-        display:none !important;
+
+    .dropdown-toggle::after {
+        display: none !important;
     }
 }

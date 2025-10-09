@@ -1,35 +1,41 @@
-.details-strip{
+.details-strip {
     background: #f6f6f8;
     padding: 12px 0;
     width: 100%;
 }
-.details-strip .head{
+
+.details-strip .head {
     font-size: 20px;
     font-weight: 500;
 }
+
 .details-strip .breadcrumb {
     margin: 0;
     float: right;
     background: transparent;
     padding: 0;
 }
-.details-strip .breadcrumb ul{
+
+.details-strip .breadcrumb ul {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
     font-size: 15px;
 }
-.details-strip .breadcrumb ul li a{
+
+.details-strip .breadcrumb ul li a {
     color: #009aac;
 }
-.booth-details-banner{
+
+.booth-details-banner {
     padding: 2rem 0;
 }
 
-.booth-items{
+.booth-items {
     padding: 1.5rem 0;
 }
-.booth-items .item-list{
+
+.booth-items .item-list {
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -37,7 +43,8 @@
     overflow: hidden;
     margin-bottom: 1.5rem;
 }
-.booth-items .item-list .product-details{
+
+.booth-items .item-list .product-details {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -45,14 +52,19 @@
     align-items: center;
     background: #0d97a8;
 }
-.booth-items .item-list .product-details a{
+
+.booth-items .item-list .product-details a {
     color: #fff;
     width: 100%;
     padding: 8px 0;
 }
 
+.booth-items .container .col-md-4 .item-list:hover {
+    scale: 1.05;
+}
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
     background-color: white;
     background-color: rgba(6, 173, 255, 0.5);
     right: 10px;
@@ -62,11 +74,18 @@
     stroke: black !important;
 }
 
-.booth-details-banner .container{ max-width:900px; width:100%; padding:10px; background:#f6f6f8; }
-.booth-details-banner .form-section{
-    display: block;
-    padding:0 15px;
+.booth-details-banner .container {
+    max-width: 900px;
+    width: 100%;
+    padding: 10px;
+    background: #f6f6f8;
 }
+
+.booth-details-banner .form-section {
+    display: block;
+    padding: 0 15px;
+}
+
 .booth-details-banner .form-section .form-control {
     width: 100%;
     margin-bottom: 15px;
@@ -75,6 +94,7 @@
     border: 1px solid #ececed;
     font-size: 15px;
 }
+
 .booth-details-banner .form-section .btn-submit {
     background: #009aac;
     color: #fff;
@@ -83,11 +103,13 @@
     text-transform: uppercase;
     width: 100%;
 }
-.booth-details-banner img{
+
+.booth-details-banner img {
     display: block;
     width: 100%;
     height: auto;
 }
+
 .styled-checkbox {
     position: absolute;
     opacity: 0;
@@ -118,7 +140,7 @@
 }
 
 .styled-checkbox:focus+label:before {
-    box-shadow: 0 0 0 3px rgba(0,0,0,.12)
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, .12)
 }
 
 .styled-checkbox:checked+label:before {
@@ -144,18 +166,19 @@
     background: #fff;
     width: 2px;
     height: 2px;
-    box-shadow: 2px 0 0 #fff,4px 0 0 #fff,4px -2px 0 #fff,4px -4px 0 #fff,4px -6px 0 #fff,4px -8px 0 #fff;
+    box-shadow: 2px 0 0 #fff, 4px 0 0 #fff, 4px -2px 0 #fff, 4px -4px 0 #fff, 4px -6px 0 #fff, 4px -8px 0 #fff;
     transform: rotate(45deg)
 }
-@media (max-width:767px){
 
-.col {
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%;
-    flex: 0 0 100% !important;
-}
+@media (max-width:767px) {
+
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+        flex: 0 0 100% !important;
+    }
 
 }
