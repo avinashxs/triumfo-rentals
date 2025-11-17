@@ -176,7 +176,16 @@
 }
 </script>
     <link rel="stylesheet" type="text/css" href="./web/css/major-cities.css">
-
+    <style>
+        .cityname a {
+            pointer-events: none;
+            cursor: default;
+            text-decoration: none;
+            /* optional */
+            color: inherit;
+            /* optional */
+        }
+    </style>
 </head>
 
 <body>
@@ -217,7 +226,7 @@
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <!-- <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li> -->
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                id="navDropdown" role="button" aria-expanded="false">Services</a>
+                                id="navDropdown" role="button" aria-expanded="false">Exhibit Rentals</a>
                             <!-- id="navDropdown" role="button" aria-expanded="false">EXHIBIT RENTALS</a> -->
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="10x10-trade-show-booth/index.html">10×10 Trade Show
@@ -244,8 +253,8 @@
                         </li>
                         <!-- <li class="nav-item"><a class="nav-link" href="services/index.html">Full Services</a></li>
             <li class="nav-item"><a class="nav-link" href="portfolio/index.html">Our Work</a></li> -->
-                        <li class="nav-item"><a class="nav-link" href="major-exhibiting-cities/index.html">Locations</a>
-                        </li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="major-exhibiting-cities/index.html">Locations</a>
+                        </li> -->
                         <li class="nav-item"><a class="nav-link" href="portfolio/index.html">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="home.html">About</a></li>
                         <!-- <li class="nav-item"><a class="nav-link" href="contact-us/index.html">Contact Us</a></li> -->
@@ -637,10 +646,10 @@
 
 
 
-    <section style="background-color:#23252c;">
+    <section style="background-color:#e5e5e5;">
         <div class="category">
             <div class="container text-center">
-                <h2 id="booth-solutions" class="main-title text-white">
+                <h2 id="booth-solutions" class="main-title" style="font-weight: 800;">
                     Trusted Partners
                 </h2>
 

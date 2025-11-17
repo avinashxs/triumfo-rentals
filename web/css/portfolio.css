@@ -163,3 +163,40 @@
         column-gap: 10px
     }
 }
+
+ .mission-vision-section {
+      padding: 60px 0;
+    }
+
+    .mission-vision-wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .mission-box,
+    .vision-box {
+      flex: 1;
+      min-width: 300px;
+      padding: 30px;
+      border-radius: 10px;
+      background: #f8f8f8;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .mission-box h2,
+    .vision-box h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    .mission-box p,
+    .vision-box p {
+      font-size: 16px;
+      color: #555;
+    }
+    
+
+    
