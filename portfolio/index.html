@@ -58,15 +58,22 @@
 
     <!-- End Google Tag Manager -->
     <style>
+        .gallery-img {
+            position: relative;
+        }
+
         .gallery-img .overlay-text {
             position: absolute;
             top: 50%;
             left: 50%;
+            transform: translate(-50%, -50%);
+            /* CENTER TEXT */
             color: #fff;
             opacity: 0;
-            animation-delay: 0.3s;
             transition: 0.3s ease;
             z-index: 2;
+            text-align: center;
+            /* OPTIONAL: center the text inside */
         }
 
         .gallery-img:hover .overlay-text {
