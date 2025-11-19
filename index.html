@@ -50,6 +50,16 @@
     <meta name="twitter:description"
         content="xs-worldwide is a leading trade show booth display design company and exhibit builder in the USA. We offer both custom and rental booth services nationwide." />
     <meta name="twitter:image" content="https://www.triumfo.us/web/images/custom-trade-show-booth.webp" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+
     <!-- Google Tag Manager -->
     <!-- <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -76,6 +86,21 @@
             position: absolute;
             z-index: 2;
             /* Above overlay */
+        }
+
+        .cityname a {
+            pointer-events: none;
+            cursor: default;
+            text-decoration: none;
+            /* optional */
+            color: inherit;
+            /* optional */
+        }
+
+        .poppins-regular {
+            font-family: "Poppins", sans-serif !important;
+            font-weight: 700 !important;
+            font-style: normal;
         }
     </style>
     <script type="application/ld+json">
@@ -176,16 +201,7 @@
 }
 </script>
     <link rel="stylesheet" type="text/css" href="./web/css/major-cities.css">
-    <style>
-        .cityname a {
-            pointer-events: none;
-            cursor: default;
-            text-decoration: none;
-            /* optional */
-            color: inherit;
-            /* optional */
-        }
-    </style>
+
 </head>
 
 <body>
@@ -289,12 +305,13 @@
             <!-- Overlay -->
             <div class="video-overlay"></div>
 
-            <div class="carousel-caption">
+            <div class="carousel-caption poppins-regular">
                 <!-- <h1 class="head">Turn your TradeShow presence<span>into a</span></h1>
                 <h1 class="head">Powerfull<span>Brand Experience</span></h1> -->
-                <h1 class="head"><span>Turn Your trade show presence</span></h1>
-                <h1 class="head"><span style="color: rgb(245 158 11);">into a Powerful Brand</span></h1>
-                <h1 class="head"><span>Experience</span></h1>
+                <h1 class="head"><span class="poppins-regular">Turn Your trade show presence</span></h1>
+                <h1 class="head"><span class="poppins-regular" style="color: rgb(245 158 11);">into a Powerful
+                        Brand</span></h1>
+                <h1 class="head"><span class="poppins-regular">Experience</span></h1>
                 <!-- <p style="text-align: left;">With over three decades of expertise, XS Worldwide — a leading
                     India-based exhibition company —
                     delivers stunning custom trade show booths and rental solutions across the United States. From
