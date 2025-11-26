@@ -155,37 +155,45 @@
           <div class="ndfelx">
             <div class="form-group">
               <label for="name">Event Name*</label>
-              <input type="text" name="eventname" required />
+              <input type="text" name="eventname" required placeholder="Event Name..." />
             </div>
             <div class="form-group">
               <label for="name">Booth Size*</label>
-              <input type="text" name="boothsize" required />
+              <input type="text" name="boothsize" required placeholder="Booth-Size" />
             </div>
           </div>
           <div class="ndfelx">
             <div class="form-group">
               <label for="name">Event Location*</label>
-              <input type="text" name="eventlocation" required />
+              <input type="text" name="eventlocation" required placeholder="Location" />
             </div>
             <div class="form-group">
               <label for="name">Organization Name*</label>
-              <input type="text" name="organization" required />
+              <input type="text" name="organization" required placeholder="Organization Name" />
             </div>
           </div>
           <div class="ndfelx">
             <div class="form-group">
               <label for="name">Your Name*</label>
-              <input type="text" name="name" required />
+              <input type="text" name="name" required placeholder="Your Name" />
             </div>
             <div class="form-group">
               <label for="name">Email ID*</label>
-              <input type="text" name="email" required />
+              <input type="text" name="email" required placeholder="Email Id" />
             </div>
+          </div>
+          <!-- booth code -->
+          <div class="ndfelx">
+            <div class="form-group">
+              <label for="name">Booth Code</label>
+              <input id="boothId" type="text" name="boothCode" placeholder="Booth Code (Optional)" />
+            </div>
+
           </div>
           <div class="ndfelx">
             <div class="form-group">
               <label for="name">Phone Number*</label>
-              <input type="text" name="phone" id="phone" required />
+              <input type="text" name="phone" id="phone" required placeholder="xxxxx-xxxx" />
             </div>
             <div class="form-group">
               <label for="name">Upload File</label>
@@ -195,6 +203,7 @@
               </div>
             </div>
           </div>
+
           <div class="form-group">
             <label for="information">Tell Us About Requirement</label>
             <textarea id="information" name="information" rows="4"></textarea>
@@ -544,6 +553,16 @@
       color: #4F84D1;
     }
   </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const params = new URLSearchParams(window.location.search);
+      const boothId = params.get("boothId");
+      debugger
+      if (boothId) {
+        document.getElementById("boothId").value = boothId;
+      }
+    });
+  </script>
 </body>
 
 <!-- Mirrored from www.triumfo.us/get-booth-quotation/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Sep 2025 07:10:45 GMT -->
